@@ -2,7 +2,7 @@
 
 >1452764 何冬怡　15502131257　me@donggu.me  
 1452769 张鸿羽  
-1350588 胡贝妮
+1350588 胡贝妮  
 1452661 冯雨晴
 
 ## System Functionalities
@@ -389,17 +389,20 @@ Given that user may obtain more than one achievement, the achievements is in a l
 	- Back-end development  
 	- Part of fore-end pages
 
-- **1452685 陈冉冉**  
-	- Back-end development  
-	- Database maintenance  
-	- Mailing service
-	- Part of fore-end pages
-
-- **1452769 张鸿羽**
+- **1452769 张鸿羽**  
 	- Chrome extension development
 	- Part of fore-end pages
 
+- **1350588 胡贝妮**  
+	- Back-end development
+	- Static Fore-end design
+	- Document editing
+	
+- **1452661 冯雨晴**
+	- Fore-end development
+	- Document editing
+	
 ### Source code management
-- GitHub organization: [https://github.com/GoCheerJava](https://github.com/GoCheerJava)
-	- Server-side repo: [GoCheerJava/GoCheer_Server](https://github.com/GoCheerJava/GoCheer_Server)
-	- Chrome extension: [GoCheerJava/GoCheer](https://github.com/GoCheerJava/GoCheer)
+- GitHub organization: [https://github.com/GouQiSE](https://github.com/GouQiSE)
+	- Server-side repo: [GouQiSE/GoCheer_Server](https://github.com/GouQiSE/GoCheer_Server)
+	- Chrome extension: [GouQiSE/GoCheer](https://github.com/GouQiSE/GoCheer)
