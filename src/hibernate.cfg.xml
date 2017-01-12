@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="connection.url">jdbc:mysql://donggu.me:3306/javaEE</property>
+    <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="connection.username">donggu</property>
+    <property name="connection.password">glgjssy</property>
+      <mapping resource="entity/mapping.xml"/>
+      <mapping class="entity.Achievement"/>
+      <mapping class="entity.AchievementUser"/>
+      <mapping class="entity.Record"/>
+      <mapping class="entity.User"/>
+      <!-- DB schema will be updated if needed -->
+    <!-- <property name="hbm2ddl.auto">update</property> -->
+  </session-factory>
+</hibernate-configuration>

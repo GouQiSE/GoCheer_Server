@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="entity.Record">
+        <table name="record" schema="javaEE" catalog=""/>
+        <id-class class="entity.RecordPK"/>
+        <attributes>
+            <id name="word">
+                <column name="word"/>
+            </id>
+            <id name="datetime">
+                <column name="datetime" precision="-1"/>
+            </id>
+            <id name="user">
+                <column name="user"/>
+            </id>
+        </attributes>
+    </entity>
+    <entity class="entity.User">
+        <table name="user" schema="javaEE" catalog=""/>
+        <attributes>
+            <id name="username">
+                <column name="username"/>
+            </id>
+            <basic name="password">
+                <column name="password"/>
+            </basic>
+            <basic name="gender">
+                <column name="gender" precision="1"/>
+            </basic>
+            <basic name="alias">
+                <column name="alias"/>
+            </basic>
+            <basic name="registertime">
+                <column name="registertime" precision="-1"/>
+            </basic>
+            <basic name="email">
+                <column name="email"/>
+            </basic>
+            <basic name="score">
+                <column name="score" precision="11"/>
+            </basic>
+            <basic name="wordsum">
+                <column name="wordsum" precision="11"/>
+            </basic>
+            <basic name="scoresum">
+                <column name="scoresum" precision="11"/>
+            </basic>
+        </attributes>
+    </entity>
+    <entity class="entity.AchievementUser">
+        <table name="achievement_user" schema="javaEE" catalog=""/>
+        <id-class class="entity.AchievementUserPK"/>
+        <attributes>
+            <id name="achievement">
+                <column name="achievement" precision="11"/>
+            </id>
+            <id name="user">
+                <column name="user"/>
+            </id>
+            <basic name="time">
+                <column name="time" precision="-1"/>
+            </basic>
+        </attributes>
+    </entity>
+    <entity class="entity.Achievement">
+        <table name="achievement" schema="javaEE" catalog=""/>
+        <attributes>
+            <id name="id">
+                <column name="id" precision="11"/>
+            </id>
+            <basic name="name">
+                <column name="name"/>
+            </basic>
+            <basic name="description">
+                <column name="description"/>
+            </basic>
+            <basic name="type">
+                <column name="type"/>
+            </basic>
+            <basic name="condition">
+                <column name="condition"/>
+            </basic>
+            <basic name="condition2">
+                <column name="condition2" nullable="false"/>
+            </basic>
+            <basic name="image">
+                <column name="image"/>
+            </basic>
+            <basic name="hidden">
+                <column name="hidden" precision="1"/>
+            </basic>
+            <basic name="score">
+                <column name="score" precision="11"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>

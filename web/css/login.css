@@ -1,0 +1,30 @@
+.jumbotron {
+    background: url("../images/login_bg.png") left no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin:0;
+    padding:0;
+}
+.jumbotron .container{
+    margin:0;
+    height:inherit;
+    background-color: rgba(243, 243, 243, 0.5);
+    padding:0;
+}
+.input-container{
+    background:none;
+    width: 80%;
+    text-align:center;
+    margin: 20% auto auto;
+}
+
+.btn{
+    background-color: darkorange;
+    color:#fff;
+    border:0;
+}
+
+.btn-login{
+    margin:60px auto;
+    width:80%;
+}

@@ -1,0 +1,66 @@
+.score{
+    text-align:right;
+    padding-right: 30px;
+}
+.number-top{
+    font-size: 42px;
+    /*color: #d58512;*/
+}
+.name-top{
+    font-size: 28px;
+    /*color: #d58512;*/
+}
+.alias {
+    margin-top: 7px;
+}
+.number{
+    font-size: 28px;
+}
+.suffix-top{
+    font-size: 20px;
+    /*color: #f0ad4e;*/
+    padding-left: 0px;
+    padding-top: 7px;
+}
+.suffix{
+    font-size: 20px;
+    color: #737373;
+    padding-left: 0px;
+    padding-top: 7px;
+}
+
+.panel-body{
+    color: #3c3c3c;
+    border-bottom: solid 1px #eee;
+}
+.position{
+    text-align: right;
+    padding-right: 0px;
+}
+span.label{
+    line-height: 2em;
+}
+.panel-top{
+    color: #49e28e;
+}
+.panel-normal{
+    padding: 0;
+    margin:10px;
+}
+h4{
+    display: inline;
+}
+.hint{
+    margin-top: 20px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+span.label.label-warning {
+    background-color: rgba(255, 221, 0, 0.49);
+}
+
+.media-body.label-list {
+    padding-left: 30px;
+}

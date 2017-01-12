@@ -1,0 +1,83 @@
+.badge-male {
+    color: #ffffff;
+    background-color: #428bca;
+}
+
+.badge-female {
+    color: #ffffff;
+    background-color: #ce8483;
+}
+
+.table-score > thead > tr > th {
+    border-bottom: 0.1px solid #ffffff;
+    text-align: center;
+    font-size: 26px;
+    font-weight: normal;
+    vertical-align: bottom;
+    line-height: 0.8em;
+}
+
+.table-score > tbody > tr > td {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1;
+}
+
+.label-success {
+    background-color: #3c763d;
+}
+
+.ach-img img {
+    width: 96px;
+    height: 96px;
+}
+
+.media-heading{
+    margin-top: 15px;
+    line-height: 2em;
+}
+
+.date {
+    margin-top: 45px;
+    text-align: center;
+}
+
+.media {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #eee;
+}
+
+.badge-lg{
+    font-size: 16px;
+    border: solid 1px #f0ad4e;
+    color: #f0ad4e;
+    line-height: 28px;
+    padding: 0 10px;
+    border-radius: 999em;
+    margin: 0 2px 8px;
+    background: none;
+    font-weight: normal;
+}
+
+span.glyphicon{
+    margin-right: 20px;
+}
+
+.gray-img img{
+    filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+    -webkit-filter: grayscale(100%);
+}
+
+.main{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#settings form{
+    margin-top: 60px;
+}
+
+.update{
+    text-align: center;
+}

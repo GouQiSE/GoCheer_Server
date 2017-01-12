@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="Hibernate">
+    <CLASSES>
+      <root url="jar://D:/成为一个又软又贱的人/Hibernate/antlr-2.7.7.jar!/" />
+      <root url="jar://D:/成为一个又软又贱的人/Hibernate/cdi-api-1.1.jar!/" />
+      <root url="jar://D:/成为一个又软又贱的人/Hibernate/classmate-1.3.0.jar!/" />
+      <root url="jar://D:/成为一个又软又贱的人/Hibernate/dom4j-1.6.1.jar!/" />
+      <root url="jar://D:/成为一个又软又贱的人/Hibernate/el-api-2.2.jar!/" />
+      <root url="jar://D:/成为一个又软又贱的人/Hibernate/geronimo-jta_1.1_spec-1.1.1.jar!/" />
+      <root url="jar://D:/成为一个又软又贱的人/Hibernate/hibernate-commons-annotations-5.0.1.Final.jar!/" />
+      <root url="jar://D:/成为一个又软又贱的人/Hibernate/hibernate-core-5.2.3.Final.jar!/" />
+      <root url="jar://D:/成为一个又软又贱的人/Hibernate/hibernate-jpa-2.1-api-1.0.0.Final.jar!/" />
+      <root url="jar://D:/成为一个又软又贱的人/Hibernate/jandex-2.0.0.Final.jar!/" />
+      <root url="jar://D:/成为一个又软又贱的人/Hibernate/javassist-3.20.0-GA.jar!/" />
+      <root url="jar://D:/成为一个又软又贱的人/Hibernate/javax.inject-1.jar!/" />
+      <root url="jar://D:/成为一个又软又贱的人/Hibernate/jboss-interceptors-api_1.1_spec-1.0.0.Beta1.jar!/" />
+      <root url="jar://D:/成为一个又软又贱的人/Hibernate/jboss-logging-3.3.0.Final.jar!/" />
+      <root url="jar://D:/成为一个又软又贱的人/Hibernate/jsr250-api-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

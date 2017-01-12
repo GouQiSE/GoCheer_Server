@@ -1,0 +1,30 @@
+.jumbotron {
+    background-image: url("../images/login_bg.png");
+    background-size: cover;
+    margin-bottom: 0;
+    padding: 0;
+    height: 500px;
+}
+.jumbotron .container{
+    background-color: rgba(243, 243, 243, 0.6);
+    padding:0;
+    width: 850px;
+    height: 100%;
+}
+.form-horizontal{
+    margin-top: 10%;
+}
+.form-group{
+    margin-top: 20px;
+}
+
+.sign-up{
+    text-align: center;
+}
+
+.col-md-4.warn {
+    margin-top: 0.5em;
+    color: #ff6000;
+    font-size: 14px;
+    font-family: "微软雅黑",sans-serif;
+}
